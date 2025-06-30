@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Our Portfolio</h1>
+    <p class="lead">Discover the innovative projects and solutions we've delivered for our clients across various industries.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>E-Commerce Platform</h2>
+        <p>
+            A full-featured online shopping platform with payment integration, 
+            inventory management, and customer analytics.
+        </p>
+        <ul>
+            <li>Flask backend with SQLAlchemy</li>
+            <li>Bootstrap responsive design</li>
+            <li>Stripe payment integration</li>
+            <li>Admin dashboard</li>
+        </ul>
+        <p><a class="btn btn-primary" href="#">View Project &raquo;</a></p>
+    </div>
+    <div class="col-md-6">
+        <h2>Task Management App</h2>
+        <p>
+            A collaborative project management tool with real-time updates, 
+            team collaboration features, and progress tracking.
+        </p>
+        <ul>
+            <li>Real-time notifications</li>
+            <li>Team collaboration tools</li>
+            <li>Progress analytics</li>
+            <li>Mobile responsive</li>
+        </ul>
+        <p><a class="btn btn-primary" href="#">View Project &raquo;</a></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Technologies We Use</h2>
+        <p>
+            Our team is proficient in a wide range of modern technologies and frameworks 
+            to deliver cutting-edge solutions.
+        </p>
+        <div class="col-md-3">
+            <h4>Frontend</h4>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript & jQuery</li>
+                <li>Bootstrap</li>
+                <li>React & Vue.js</li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h4>Backend</h4>
+            <ul>
+                <li>Python & Flask</li>
+                <li>Node.js & Express</li>
+                <li>Django</li>
+                <li>RESTful APIs</li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h4>Database</h4>
+            <ul>
+                <li>MySQL & PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>SQLite</li>
+                <li>Redis</li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h4>DevOps</h4>
+            <ul>
+                <li>Docker & Kubernetes</li>
+                <li>Azure & AWS</li>
+                <li>GitHub Actions</li>
+                <li>CI/CD Pipelines</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

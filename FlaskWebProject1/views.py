@@ -35,3 +35,23 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
+
+@app.route('/services')
+def services():
+    """Renders the services page."""
+    return render_template(
+        'services.html',
+        title='Services',
+        year=datetime.now().year,
+        message='Our comprehensive service offerings for your business needs.'
+    )
+
+@app.route('/portfolio')
+def portfolio():
+    """Renders the portfolio page."""
+    return render_template(
+        'portfolio.html',
+        title='Portfolio',
+        year=datetime.now().year,
+        message='Explore our latest projects and achievements.'
+    )
